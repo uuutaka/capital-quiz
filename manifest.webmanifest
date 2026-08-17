@@ -1,6 +1,6 @@
 {
-  "name": "暗記大会 首都編",
-  "short_name": "首都編",
+  "name": "首都クイズ",
+  "short_name": "首都クイズ",
   "description": "国名から首都名を覚える暗記カードアプリ",
   "lang": "ja",
   "id": "./",
