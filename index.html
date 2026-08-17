@@ -22,7 +22,7 @@
 <div class="app">
 <header><h1>首都クイズ</h1><div id="totalBadge" class="badge">読み込み中</div></header>
 <section id="setup" class="panel">
-<p class="lead">国名と国旗を見て首都名を思い出し、カードをタップまたは「答えを見る」で確認します。</p>
+<p class="lead">国名と国旗を見て首都名を思い出し、クイズ画面をタップまたは「答えを見る」で確認します。</p>
 <div class="grid">
  <div class="field"><label for="region">地域</label><select id="region"><option value="" selected>全部</option><option value="ヨーロッパ">ヨーロッパ</option><option value="アジア">アジア</option><option value="南北アメリカ">南北アメリカ</option><option value="アフリカ">アフリカ</option><option value="オセアニア">オセアニア</option></select></div>
  <div class="field"><label for="count">カード枚数</label><select id="count"><option value="5">5枚</option><option value="10">10枚</option><option value="20">20枚</option><option value="30">30枚</option><option value="50">50枚</option><option value="all" selected>全部</option></select></div>
@@ -66,11 +66,35 @@ function setFlag(x){
 }
 function render(){const x=session.cards[session.index],i=session.index,n=session.cards.length;setFlip(false);el.country.textContent=x.country;setFlag(x);el.capital.textContent=x.capital;el.note.textContent=x.note||'';el.note.classList.toggle('hidden',!x.note);el.progress.textContent=`${i+1} / ${n} 枚`;el.bar.style.width=`${(i+1)/n*100}%`;el.prev.disabled=i===0;el.next.textContent=i===n-1?'終了':'次へ'}function prev(){if(session.index>0){session.index--;render();scrollToTop()}}function next(){if(session.index<session.cards.length-1){session.index++;render();scrollToTop()}else finish()}function home(){session=null;setFlip(false);el.quiz.classList.add('hidden');el.finish.classList.add('hidden');el.setup.classList.remove('hidden');scrollToTop()}function finish(){el.quiz.classList.add('hidden');el.finish.classList.remove('hidden');el.finishText.textContent=`${session.cards.length}枚のカードを確認しました。`;scrollToTop()}function again(){let cards=selected();if(!cards.length)return;session={cards,index:0};el.finish.classList.add('hidden');el.quiz.classList.remove('hidden');render();scrollToTop()}function settings(){el.finish.classList.add('hidden');el.quiz.classList.add('hidden');el.setup.classList.remove('hidden');scrollToTop()}
 el.start.addEventListener('click',start);
-// iPhone/PWAで確実に動かすため、3D反転ではなく、表示中の面を直接タップして切り替える。
-const frontFace=el.card.querySelector('.front');
-const backFace=el.card.querySelector('.back');
-frontFace.addEventListener('click',toggleFlip);
-backFace.addEventListener('click',toggleFlip);
+// iPhone/PWA対策: クイズ画面全体をタップ対象にする。操作ボタン類だけ除外する。
+let touchStartX=0,touchStartY=0,touchStarted=false,lastTouchToggle=0;
+const isQuizTapTarget=t=>!!t.closest('#quiz')&&!t.closest('button,input,select,a');
+document.addEventListener('touchstart',e=>{
+  if(!isQuizTapTarget(e.target)||e.touches.length!==1)return;
+  touchStarted=true;
+  touchStartX=e.touches[0].clientX;
+  touchStartY=e.touches[0].clientY;
+},{capture:true,passive:true});
+document.addEventListener('touchend',e=>{
+  if(!touchStarted||!isQuizTapTarget(e.target)||e.changedTouches.length!==1)return;
+  touchStarted=false;
+  const t=e.changedTouches[0];
+  const dx=t.clientX-touchStartX,dy=t.clientY-touchStartY;
+  if(Math.hypot(dx,dy)<=18){
+    e.preventDefault();
+    e.stopPropagation();
+    lastTouchToggle=Date.now();
+    toggleFlip();
+  }
+},{capture:true,passive:false});
+document.addEventListener('touchcancel',()=>{touchStarted=false;},{capture:true,passive:true});
+// マウス・トラックパッド用。touchend直後の合成clickは二重反転防止のため無視する。
+document.addEventListener('click',e=>{
+  if(!isQuizTapTarget(e.target))return;
+  if(Date.now()-lastTouchToggle<700)return;
+  e.preventDefault();
+  toggleFlip();
+},true);
 // キーボード操作にも対応。
 el.card.tabIndex=0;
 el.card.setAttribute('role','button');
@@ -78,5 +102,5 @@ el.card.setAttribute('aria-label','タップして問題と答えを切り替え
 el.card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggleFlip();}});
 el.flip.addEventListener('click',toggleFlip);el.prev.addEventListener('click',prev);el.next.addEventListener('click',next);el.home.addEventListener('click',home);el.again.addEventListener('click',again);el.settings.addEventListener('click',settings);el.keyword.addEventListener('keydown',e=>{if(e.key==='Enter'&&!el.start.disabled)start()});loadData();
 </script>
-<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(console.warn));}</script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=12',{updateViaCache:'none'}).then(r=>r.update()).catch(console.warn));}</script>
 </body></html>
