@@ -1,0 +1,1584 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "total": 195,
+    "set": "UN193+HolySee+Palestine",
+    "source_note": "MOFA Kids base; selected 2026 updates applied",
+    "regions": [
+      "ヨーロッパ",
+      "アジア",
+      "南北アメリカ",
+      "アフリカ",
+      "オセアニア"
+    ],
+    "region_counts": {
+      "ヨーロッパ": 45,
+      "アジア": 47,
+      "南北アメリカ": 35,
+      "アフリカ": 54,
+      "オセアニア": 14
+    }
+  },
+  "countries": [
+    {
+      "id": "AF",
+      "code": "AF",
+      "country": "アフガニスタン",
+      "capital": "カブール",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "AL",
+      "code": "AL",
+      "country": "アルバニア",
+      "capital": "ティラナ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "DZ",
+      "code": "DZ",
+      "country": "アルジェリア",
+      "capital": "アルジェ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "AD",
+      "code": "AD",
+      "country": "アンドラ",
+      "capital": "アンドラ・ラ・ベリャ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "AO",
+      "code": "AO",
+      "country": "アンゴラ",
+      "capital": "ルアンダ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "AG",
+      "code": "AG",
+      "country": "アンティグア・バーブーダ",
+      "capital": "セントジョンズ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "AR",
+      "code": "AR",
+      "country": "アルゼンチン",
+      "capital": "ブエノスアイレス",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "AM",
+      "code": "AM",
+      "country": "アルメニア",
+      "capital": "エレバン",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "AU",
+      "code": "AU",
+      "country": "オーストラリア",
+      "capital": "キャンベラ",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "AT",
+      "code": "AT",
+      "country": "オーストリア",
+      "capital": "ウィーン",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "AZ",
+      "code": "AZ",
+      "country": "アゼルバイジャン",
+      "capital": "バクー",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "BS",
+      "code": "BS",
+      "country": "バハマ",
+      "capital": "ナッソー",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "BH",
+      "code": "BH",
+      "country": "バーレーン",
+      "capital": "マナーマ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "BD",
+      "code": "BD",
+      "country": "バングラデシュ",
+      "capital": "ダッカ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "BB",
+      "code": "BB",
+      "country": "バルバドス",
+      "capital": "ブリッジタウン",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "BY",
+      "code": "BY",
+      "country": "ベラルーシ",
+      "capital": "ミンスク",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "BE",
+      "code": "BE",
+      "country": "ベルギー",
+      "capital": "ブリュッセル",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "BZ",
+      "code": "BZ",
+      "country": "ベリーズ",
+      "capital": "ベルモパン",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "BJ",
+      "code": "BJ",
+      "country": "ベナン",
+      "capital": "ポルトノボ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "BT",
+      "code": "BT",
+      "country": "ブータン",
+      "capital": "ティンプー",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "BO",
+      "code": "BO",
+      "country": "ボリビア",
+      "capital": "ラパス",
+      "note": "憲法上の首都はスクレ。政府所在地はラパス。",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "BA",
+      "code": "BA",
+      "country": "ボスニア・ヘルツェゴビナ",
+      "capital": "サラエボ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "BW",
+      "code": "BW",
+      "country": "ボツワナ",
+      "capital": "ハボローネ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "BR",
+      "code": "BR",
+      "country": "ブラジル",
+      "capital": "ブラジリア",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "BN",
+      "code": "BN",
+      "country": "ブルネイ",
+      "capital": "バンダル・スリ・ブガワン",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "BG",
+      "code": "BG",
+      "country": "ブルガリア",
+      "capital": "ソフィア",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "BF",
+      "code": "BF",
+      "country": "ブルキナファソ",
+      "capital": "ワガドゥグ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "BI",
+      "code": "BI",
+      "country": "ブルンジ",
+      "capital": "ギテガ",
+      "note": "2019年2月に変更。それまではブジュンブラ。ブジュンブラは現在も経済の中心。",
+      "region": "アフリカ"
+    },
+    {
+      "id": "CV",
+      "code": "CV",
+      "country": "カーボベルデ",
+      "capital": "プライア",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "KH",
+      "code": "KH",
+      "country": "カンボジア",
+      "capital": "プノンペン",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "CM",
+      "code": "CM",
+      "country": "カメルーン",
+      "capital": "ヤウンデ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "CA",
+      "code": "CA",
+      "country": "カナダ",
+      "capital": "オタワ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "CF",
+      "code": "CF",
+      "country": "中央アフリカ",
+      "capital": "バンギ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "TD",
+      "code": "TD",
+      "country": "チャド",
+      "capital": "ウンジャメナ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "CL",
+      "code": "CL",
+      "country": "チリ",
+      "capital": "サンティアゴ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "CN",
+      "code": "CN",
+      "country": "中国",
+      "capital": "北京",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "CO",
+      "code": "CO",
+      "country": "コロンビア",
+      "capital": "ボゴタ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "KM",
+      "code": "KM",
+      "country": "コモロ",
+      "capital": "モロニ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "CG",
+      "code": "CG",
+      "country": "コンゴ共和国",
+      "capital": "ブラザビル",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "CD",
+      "code": "CD",
+      "country": "コンゴ民主共和国",
+      "capital": "キンシャサ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "CR",
+      "code": "CR",
+      "country": "コスタリカ",
+      "capital": "サンホセ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "HR",
+      "code": "HR",
+      "country": "クロアチア",
+      "capital": "ザグレブ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "CU",
+      "code": "CU",
+      "country": "キューバ",
+      "capital": "ハバナ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "CY",
+      "code": "CY",
+      "country": "キプロス",
+      "capital": "ニコシア",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "CZ",
+      "code": "CZ",
+      "country": "チェコ",
+      "capital": "プラハ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "CI",
+      "code": "CI",
+      "country": "コートジボワール",
+      "capital": "ヤムスクロ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "DK",
+      "code": "DK",
+      "country": "デンマーク",
+      "capital": "コペンハーゲン",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "DJ",
+      "code": "DJ",
+      "country": "ジブチ",
+      "capital": "ジブチ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "DM",
+      "code": "DM",
+      "country": "ドミニカ国",
+      "capital": "ロゾー",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "DO",
+      "code": "DO",
+      "country": "ドミニカ共和国",
+      "capital": "サントドミンゴ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "EC",
+      "code": "EC",
+      "country": "エクアドル",
+      "capital": "キト",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "EG",
+      "code": "EG",
+      "country": "エジプト",
+      "capital": "カイロ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "SV",
+      "code": "SV",
+      "country": "エルサルバドル",
+      "capital": "サンサルバドル",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "GQ",
+      "code": "GQ",
+      "country": "赤道ギニア",
+      "capital": "シウダ・デ・ラ・パス",
+      "note": "2026年1月に変更。それまではマラボ。",
+      "region": "アフリカ"
+    },
+    {
+      "id": "ER",
+      "code": "ER",
+      "country": "エリトリア",
+      "capital": "アスマラ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "EE",
+      "code": "EE",
+      "country": "エストニア",
+      "capital": "タリン",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "SZ",
+      "code": "SZ",
+      "country": "エスワティニ",
+      "capital": "ムババーネ",
+      "note": "行政首都はムババーネ。王宮・立法府はロバンバ。",
+      "region": "アフリカ"
+    },
+    {
+      "id": "ET",
+      "code": "ET",
+      "country": "エチオピア",
+      "capital": "アディスアベバ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "FJ",
+      "code": "FJ",
+      "country": "フィジー",
+      "capital": "スバ",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "FI",
+      "code": "FI",
+      "country": "フィンランド",
+      "capital": "ヘルシンキ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "FR",
+      "code": "FR",
+      "country": "フランス",
+      "capital": "パリ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "GA",
+      "code": "GA",
+      "country": "ガボン",
+      "capital": "リーブルビル",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "GM",
+      "code": "GM",
+      "country": "ガンビア",
+      "capital": "バンジュール",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "GE",
+      "code": "GE",
+      "country": "ジョージア",
+      "capital": "トビリシ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "DE",
+      "code": "DE",
+      "country": "ドイツ",
+      "capital": "ベルリン",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "GH",
+      "code": "GH",
+      "country": "ガーナ",
+      "capital": "アクラ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "GR",
+      "code": "GR",
+      "country": "ギリシャ",
+      "capital": "アテネ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "GD",
+      "code": "GD",
+      "country": "グレナダ",
+      "capital": "セントジョージズ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "GT",
+      "code": "GT",
+      "country": "グアテマラ",
+      "capital": "グアテマラ市",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "GN",
+      "code": "GN",
+      "country": "ギニア",
+      "capital": "コナクリ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "GW",
+      "code": "GW",
+      "country": "ギニアビサウ",
+      "capital": "ビサウ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "GY",
+      "code": "GY",
+      "country": "ガイアナ",
+      "capital": "ジョージタウン",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "HT",
+      "code": "HT",
+      "country": "ハイチ",
+      "capital": "ポルトープランス",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "VA",
+      "code": "VA",
+      "country": "バチカン市国",
+      "capital": "バチカン市国",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "HN",
+      "code": "HN",
+      "country": "ホンジュラス",
+      "capital": "テグシガルパ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "HU",
+      "code": "HU",
+      "country": "ハンガリー",
+      "capital": "ブダペスト",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "IS",
+      "code": "IS",
+      "country": "アイスランド",
+      "capital": "レイキャビク",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "IN",
+      "code": "IN",
+      "country": "インド",
+      "capital": "ニューデリー",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "ID",
+      "code": "ID",
+      "country": "インドネシア",
+      "capital": "ジャカルタ",
+      "note": "ヌサンタラへの首都移転が進められているが、2026年8月時点では首都はジャカルタ。",
+      "region": "アジア"
+    },
+    {
+      "id": "IR",
+      "code": "IR",
+      "country": "イラン",
+      "capital": "テヘラン",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "IQ",
+      "code": "IQ",
+      "country": "イラク",
+      "capital": "バグダッド",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "IE",
+      "code": "IE",
+      "country": "アイルランド",
+      "capital": "ダブリン",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "IL",
+      "code": "IL",
+      "country": "イスラエル",
+      "capital": "エルサレム",
+      "note": "イスラエルはエルサレムを首都としているが、その地位について国際的な争いがある。",
+      "region": "アジア"
+    },
+    {
+      "id": "IT",
+      "code": "IT",
+      "country": "イタリア",
+      "capital": "ローマ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "JM",
+      "code": "JM",
+      "country": "ジャマイカ",
+      "capital": "キングストン",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "JP",
+      "code": "JP",
+      "country": "日本",
+      "capital": "東京",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "JO",
+      "code": "JO",
+      "country": "ヨルダン",
+      "capital": "アンマン",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "KZ",
+      "code": "KZ",
+      "country": "カザフスタン",
+      "capital": "アスタナ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "KE",
+      "code": "KE",
+      "country": "ケニア",
+      "capital": "ナイロビ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "KI",
+      "code": "KI",
+      "country": "キリバス",
+      "capital": "タラワ",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "KP",
+      "code": "KP",
+      "country": "北朝鮮",
+      "capital": "平壌（ピョンヤン）",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "KR",
+      "code": "KR",
+      "country": "韓国",
+      "capital": "ソウル",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "KW",
+      "code": "KW",
+      "country": "クウェート",
+      "capital": "クウェート",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "KG",
+      "code": "KG",
+      "country": "キルギス",
+      "capital": "ビシュケク",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "LA",
+      "code": "LA",
+      "country": "ラオス",
+      "capital": "ビエンチャン",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "LV",
+      "code": "LV",
+      "country": "ラトビア",
+      "capital": "リガ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "LB",
+      "code": "LB",
+      "country": "レバノン",
+      "capital": "ベイルート",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "LS",
+      "code": "LS",
+      "country": "レソト",
+      "capital": "マセル",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "LR",
+      "code": "LR",
+      "country": "リベリア",
+      "capital": "モンロビア",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "LY",
+      "code": "LY",
+      "country": "リビア",
+      "capital": "トリポリ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "LI",
+      "code": "LI",
+      "country": "リヒテンシュタイン",
+      "capital": "ファドーツ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "LT",
+      "code": "LT",
+      "country": "リトアニア",
+      "capital": "ビリニュス",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "LU",
+      "code": "LU",
+      "country": "ルクセンブルク",
+      "capital": "ルクセンブルク",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "MG",
+      "code": "MG",
+      "country": "マダガスカル",
+      "capital": "アンタナナリボ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "MW",
+      "code": "MW",
+      "country": "マラウイ",
+      "capital": "リロングウェ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "MY",
+      "code": "MY",
+      "country": "マレーシア",
+      "capital": "クアラルンプール",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "MV",
+      "code": "MV",
+      "country": "モルディブ",
+      "capital": "マレ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "ML",
+      "code": "ML",
+      "country": "マリ",
+      "capital": "バマコ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "MT",
+      "code": "MT",
+      "country": "マルタ",
+      "capital": "バレッタ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "MH",
+      "code": "MH",
+      "country": "マーシャル諸島",
+      "capital": "マジュロ",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "MR",
+      "code": "MR",
+      "country": "モーリタニア",
+      "capital": "ヌアクショット",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "MU",
+      "code": "MU",
+      "country": "モーリシャス",
+      "capital": "ポートルイス",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "MX",
+      "code": "MX",
+      "country": "メキシコ",
+      "capital": "メキシコ市",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "FM",
+      "code": "FM",
+      "country": "ミクロネシア連邦",
+      "capital": "パリキール",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "MD",
+      "code": "MD",
+      "country": "モルドバ",
+      "capital": "キシナウ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "MC",
+      "code": "MC",
+      "country": "モナコ",
+      "capital": "モナコ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "MN",
+      "code": "MN",
+      "country": "モンゴル",
+      "capital": "ウランバートル",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "ME",
+      "code": "ME",
+      "country": "モンテネグロ",
+      "capital": "ポドゴリツァ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "MA",
+      "code": "MA",
+      "country": "モロッコ",
+      "capital": "ラバト",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "MZ",
+      "code": "MZ",
+      "country": "モザンビーク",
+      "capital": "マプト",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "MM",
+      "code": "MM",
+      "country": "ミャンマー",
+      "capital": "ネーピードー",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "NA",
+      "code": "NA",
+      "country": "ナミビア",
+      "capital": "ウィントフック",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "NR",
+      "code": "NR",
+      "country": "ナウル",
+      "capital": "ヤレン",
+      "note": "憲法上の正式な首都は定められていない。ヤレン地区が事実上の首都。",
+      "region": "オセアニア"
+    },
+    {
+      "id": "NP",
+      "code": "NP",
+      "country": "ネパール",
+      "capital": "カトマンズ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "NL",
+      "code": "NL",
+      "country": "オランダ",
+      "capital": "アムステルダム",
+      "note": "憲法上の首都はアムステルダム。政府・議会はハーグに所在。",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "NZ",
+      "code": "NZ",
+      "country": "ニュージーランド",
+      "capital": "ウェリントン",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "NI",
+      "code": "NI",
+      "country": "ニカラグア",
+      "capital": "マナグア",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "NE",
+      "code": "NE",
+      "country": "ニジェール",
+      "capital": "ニアメ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "NG",
+      "code": "NG",
+      "country": "ナイジェリア",
+      "capital": "アブジャ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "MK",
+      "code": "MK",
+      "country": "北マケドニア",
+      "capital": "スコピエ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "NO",
+      "code": "NO",
+      "country": "ノルウェー",
+      "capital": "オスロ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "OM",
+      "code": "OM",
+      "country": "オマーン",
+      "capital": "マスカット",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "PK",
+      "code": "PK",
+      "country": "パキスタン",
+      "capital": "イスラマバード",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "PW",
+      "code": "PW",
+      "country": "パラオ",
+      "capital": "マルキョク",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "PS",
+      "code": "PS",
+      "country": "パレスチナ",
+      "capital": "東エルサレム",
+      "note": "パレスチナは東エルサレムを首都と主張。行政の中心はラマッラ。",
+      "region": "アジア"
+    },
+    {
+      "id": "PA",
+      "code": "PA",
+      "country": "パナマ",
+      "capital": "パナマシティー",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "PG",
+      "code": "PG",
+      "country": "パプアニューギニア",
+      "capital": "ポートモレスビー",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "PY",
+      "code": "PY",
+      "country": "パラグアイ",
+      "capital": "アスンシオン",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "PE",
+      "code": "PE",
+      "country": "ペルー",
+      "capital": "リマ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "PH",
+      "code": "PH",
+      "country": "フィリピン",
+      "capital": "マニラ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "PL",
+      "code": "PL",
+      "country": "ポーランド",
+      "capital": "ワルシャワ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "PT",
+      "code": "PT",
+      "country": "ポルトガル",
+      "capital": "リスボン",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "QA",
+      "code": "QA",
+      "country": "カタール",
+      "capital": "ドーハ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "RO",
+      "code": "RO",
+      "country": "ルーマニア",
+      "capital": "ブカレスト",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "RU",
+      "code": "RU",
+      "country": "ロシア",
+      "capital": "モスクワ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "RW",
+      "code": "RW",
+      "country": "ルワンダ",
+      "capital": "キガリ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "KN",
+      "code": "KN",
+      "country": "セントクリストファー・ネービス",
+      "capital": "バセテール",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "LC",
+      "code": "LC",
+      "country": "セントルシア",
+      "capital": "カストリーズ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "VC",
+      "code": "VC",
+      "country": "セントビンセント及びグレナディーン諸島",
+      "capital": "キングスタウン",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "WS",
+      "code": "WS",
+      "country": "サモア",
+      "capital": "アピア",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "SM",
+      "code": "SM",
+      "country": "サンマリノ",
+      "capital": "サンマリノ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "ST",
+      "code": "ST",
+      "country": "サントメ・プリンシペ",
+      "capital": "サントメ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "SA",
+      "code": "SA",
+      "country": "サウジアラビア",
+      "capital": "リヤド",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "SN",
+      "code": "SN",
+      "country": "セネガル",
+      "capital": "ダカール",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "RS",
+      "code": "RS",
+      "country": "セルビア",
+      "capital": "ベオグラード",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "SC",
+      "code": "SC",
+      "country": "セーシェル",
+      "capital": "ヴィクトリア",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "SL",
+      "code": "SL",
+      "country": "シエラレオネ",
+      "capital": "フリータウン",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "SG",
+      "code": "SG",
+      "country": "シンガポール",
+      "capital": "シンガポール",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "SK",
+      "code": "SK",
+      "country": "スロバキア",
+      "capital": "ブラチスラバ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "SI",
+      "code": "SI",
+      "country": "スロベニア",
+      "capital": "リュブリャナ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "SB",
+      "code": "SB",
+      "country": "ソロモン諸島",
+      "capital": "ホニアラ",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "SO",
+      "code": "SO",
+      "country": "ソマリア",
+      "capital": "モガディシュ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "ZA",
+      "code": "ZA",
+      "country": "南アフリカ",
+      "capital": "プレトリア",
+      "note": "行政首都はプレトリア。立法首都はケープタウン、司法首都はブルームフォンテーン。",
+      "region": "アフリカ"
+    },
+    {
+      "id": "SS",
+      "code": "SS",
+      "country": "南スーダン",
+      "capital": "ジュバ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "ES",
+      "code": "ES",
+      "country": "スペイン",
+      "capital": "マドリード",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "LK",
+      "code": "LK",
+      "country": "スリランカ",
+      "capital": "スリ・ジャヤワルダナプラ・コッテ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "SD",
+      "code": "SD",
+      "country": "スーダン",
+      "capital": "ハルツーム",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "SR",
+      "code": "SR",
+      "country": "スリナム",
+      "capital": "パラマリボ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "SE",
+      "code": "SE",
+      "country": "スウェーデン",
+      "capital": "ストックホルム",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "CH",
+      "code": "CH",
+      "country": "スイス",
+      "capital": "ベルン",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "SY",
+      "code": "SY",
+      "country": "シリア",
+      "capital": "ダマスカス",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "TJ",
+      "code": "TJ",
+      "country": "タジキスタン",
+      "capital": "ドゥシャンベ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "TZ",
+      "code": "TZ",
+      "country": "タンザニア",
+      "capital": "ドドマ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "TH",
+      "code": "TH",
+      "country": "タイ",
+      "capital": "バンコク",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "TL",
+      "code": "TL",
+      "country": "東ティモール",
+      "capital": "ディリ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "TG",
+      "code": "TG",
+      "country": "トーゴ",
+      "capital": "ロメ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "TO",
+      "code": "TO",
+      "country": "トンガ",
+      "capital": "ヌクアロファ",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "TT",
+      "code": "TT",
+      "country": "トリニダード・トバゴ",
+      "capital": "ポート・オブ・スペイン",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "TN",
+      "code": "TN",
+      "country": "チュニジア",
+      "capital": "チュニス",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "TM",
+      "code": "TM",
+      "country": "トルクメニスタン",
+      "capital": "アシガバット",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "TV",
+      "code": "TV",
+      "country": "ツバル",
+      "capital": "フナフティ",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "TR",
+      "code": "TR",
+      "country": "トルコ",
+      "capital": "アンカラ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "UG",
+      "code": "UG",
+      "country": "ウガンダ",
+      "capital": "カンパラ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "UA",
+      "code": "UA",
+      "country": "ウクライナ",
+      "capital": "キーウ",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "AE",
+      "code": "AE",
+      "country": "アラブ首長国連邦",
+      "capital": "アブダビ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "GB",
+      "code": "GB",
+      "country": "イギリス",
+      "capital": "ロンドン",
+      "note": "",
+      "region": "ヨーロッパ"
+    },
+    {
+      "id": "US",
+      "code": "US",
+      "country": "アメリカ合衆国",
+      "capital": "ワシントンD.C.",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "UY",
+      "code": "UY",
+      "country": "ウルグアイ",
+      "capital": "モンテビデオ",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "UZ",
+      "code": "UZ",
+      "country": "ウズベキスタン",
+      "capital": "タシケント",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "VU",
+      "code": "VU",
+      "country": "バヌアツ",
+      "capital": "ポートビラ",
+      "note": "",
+      "region": "オセアニア"
+    },
+    {
+      "id": "VE",
+      "code": "VE",
+      "country": "ベネズエラ",
+      "capital": "カラカス",
+      "note": "",
+      "region": "南北アメリカ"
+    },
+    {
+      "id": "VN",
+      "code": "VN",
+      "country": "ベトナム",
+      "capital": "ハノイ",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "YE",
+      "code": "YE",
+      "country": "イエメン",
+      "capital": "サヌア",
+      "note": "",
+      "region": "アジア"
+    },
+    {
+      "id": "ZM",
+      "code": "ZM",
+      "country": "ザンビア",
+      "capital": "ルサカ",
+      "note": "",
+      "region": "アフリカ"
+    },
+    {
+      "id": "ZW",
+      "code": "ZW",
+      "country": "ジンバブエ",
+      "capital": "ハラレ",
+      "note": "",
+      "region": "アフリカ"
+    }
+  ]
+}
